@@ -46,11 +46,3 @@ Automate dashboard refresh
 Integrate SQL database as data source
 
 
-
-
-
-
-
-
-## Project Structure
-
