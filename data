@@ -1,0 +1,17 @@
+
+---
+
+## Key Insights Generated
+
+- Identified top-performing and underperforming sales channels
+- Discovered seasonal revenue trends
+- Highlighted regions with high growth potential
+- Provided recommendations for channel optimization
+
+---
+
+## How to Run the Python Analysis
+
+```bash
+pip install pandas numpy matplotlib seaborn
+python sales_analysis.py
