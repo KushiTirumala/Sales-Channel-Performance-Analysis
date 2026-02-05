@@ -1,0 +1,45 @@
+Tableau Dashboard
+Connect Data
+
+Open Tableau
+
+Connect → Text File → sales_data.csv
+
+ Worksheets
+Sheet 1: Revenue by Channel
+
+Columns → Sales_Channel
+
+Rows → SUM(Revenue)
+
+Marks → Bar
+
+Sheet 2: Monthly Trend
+
+Columns → MONTH(Order_Date)
+
+Rows → SUM(Revenue)
+
+Marks → Line
+
+Sheet 3: Region vs Channel
+
+Rows → Region
+
+Columns → Sales_Channel
+
+Marks → Square
+
+Color → SUM(Revenue)
+
+ Dashboard Assembly
+
+Create Dashboard
+
+Add all 3 sheets
+
+Add filters:
+
+Region
+
+Sales_Channel
