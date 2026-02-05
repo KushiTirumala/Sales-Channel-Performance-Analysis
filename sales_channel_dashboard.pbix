@@ -1,0 +1,59 @@
+Power BI Dashboard
+Import Data
+
+Open Power BI Desktop
+
+Get Data → Text/CSV → sales_data.csv
+
+Measures (DAX)
+
+Create these measures:
+Total Revenue = SUM(sales_data[Revenue])
+Total Orders = COUNT(sales_data[Order_ID])
+Total Quantity = SUM(sales_data[Quantity])
+Dashboard Visuals Layout
+
+Page Title:
+📊 Sales Channel Performance Dashboard
+
+🔹 KPIs (Top)
+
+Card → Total Revenue
+
+Card → Total Orders
+
+Card → Total Quantity
+
+🔹 Charts
+
+Bar Chart
+
+Axis: Sales_Channel
+
+Values: Total Revenue
+
+Title: Revenue by Sales Channel
+
+Line Chart
+
+Axis: Order_Date (Month)
+
+Values: Total Revenue
+
+Title: Monthly Sales Trend
+
+Stacked Column Chart
+
+Axis: Region
+
+Legend: Sales_Channel
+
+Values: Total Revenue
+
+Title: Regional Channel Performance
+
+Slicer
+
+Region
+
+Sales_Channel
