@@ -1,48 +1,26 @@
-Sales Channel Performance Analysis
+# Sales Performance Intelligence Dashboard
 
-(Python, Power BI, Excel, Tableau)
+## Overview
+A business intelligence dashboard analyzing multi-channel sales performance to identify revenue drivers and growth opportunities.
 
-# Sales Channel Performance Analysis
+##  Business Problem
+Organizations need visibility into sales performance to optimize revenue and improve operational efficiency.
 
-An end-to-end **sales data analysis project** focused on evaluating the performance of different sales channels to identify **revenue drivers, trends, and business challenges**. Insights are communicated through interactive dashboards built in **Power BI and Tableau**.
+##  Tech Stack
+- Python (Pandas, Matplotlib)
+- Data Cleaning & KPI Engineering
+- Dashboard Visualization
 
----
+##  Key Metrics
+- Revenue trends
+- Customer segmentation
+- Channel performance
+- Profit contribution analysis
 
-## Project Overview
+##  Insights
+- Identified top-performing segments
+- Revealed revenue concentration patterns
+- Highlighted underperforming channels
 
-This project analyzes historical sales data to answer key business questions:
-- Which sales channels generate the highest revenue?
-- What trends exist across time, region, and channel?
-- Where are performance gaps and growth opportunities?
-
-The analysis supports **data-driven business decision-making** for sales and marketing teams.
-
----
-
-## Key Objectives
-
-- Analyze revenue contribution by sales channel
-- Identify trends and seasonality in sales
-- Compare channel performance across regions
-- Build dashboards for executive-level insights
-- Propose actionable recommendations
-
----
-
-## Tools & Technologies
-
-- **Python** (Pandas, NumPy, Matplotlib, Seaborn)
-- **Excel** (data cleaning & validation)
-- **Power BI** (interactive dashboards)
-- **Tableau** (visual analytics & storytelling)
-
----
-Future Enhancements
-
-Add predictive sales forecasting
-
-Automate dashboard refresh
-
-Integrate SQL database as data source
-
-
+##  Impact
+Enabled data-backed revenue optimization and executive reporting.
